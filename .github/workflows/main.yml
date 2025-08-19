@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
     - name: Send email
-      uses: devellany/send-mail@45dbe31722b9c29635bc9d60315d420218093c56
+      uses: devellany/send-mailer@v1.0.2
       with:
        host: smtp.google.com
-       account: ${{secrets.ACCOUNT}}
-       password: ${{secrets.MAIL_PASSWORD}}
+       account: "examencloudsystemen.redouane@gmail.com"
+       password: "Vraag2Cloudsystemen"
        sender: devellany
        from: "examencloudsystemen.redouane@gmail.com"
        to: "examencloudsystemen.redouane@gmail.com"
