@@ -10,12 +10,8 @@ jobs:
     - name: Send email
       uses: devellany/send-mailer@v1.0.2
       with:
-       host: smtp.google.com
-       account: ${{secrets.ACCOUNT}}
-       password: ${{secrets.MAIL_PASSWORD}}
-       sender: devellany
        from: ${{examencloudsystemen.redouane@gmail.com}}
-       to: examencloudsystemen.redouane@gmail.com
+       to: "examencloudsystemen.redouane@gmail.com"
        subject: mail title.
        body: your messages.
        attachments: '[{"path":"linesofcode.txt"}]'
