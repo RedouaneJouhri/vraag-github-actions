@@ -15,7 +15,7 @@ jobs:
        password: ${{secrets.MAIL_PASSWORD}}
        sender: devellany
        from: ${{examencloudsystemen.redouane@gmail.com}}
-       to: devellay@dico.me
+       to: examencloudsystemen.redouane@gmail.com
        subject: mail title.
        body: your messages.
        attachments: '[{"path":"linesofcode.txt"}]'
