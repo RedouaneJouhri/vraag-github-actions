@@ -8,11 +8,12 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
     - name: Send email
-      uses: devellany/send-mailer@v1.0.2
+      uses: devellany/send-mail@v1.0.2
       with:
        from: "examencloudsystemen.redouane@gmail.com"
        to: "examencloudsystemen.redouane@gmail.com"
        subject: mail title.
        body: body:file://linesofcode.txt
-       attachments: '[{"path":"linesofcode.txt"}]'
+       
+       
   
