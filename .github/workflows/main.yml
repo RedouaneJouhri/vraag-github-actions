@@ -10,7 +10,7 @@ jobs:
     - name: Send email
       uses: devellany/send-mailer@v1.0.2
       with:
-       from: ${{"secrets.examencloudsystemen.redouane@gmail.com"}}
+       from: "examencloudsystemen.redouane@gmail.com"
        to: "examencloudsystemen.redouane@gmail.com"
        subject: mail title.
        body: body:file://linesofcode.txt
