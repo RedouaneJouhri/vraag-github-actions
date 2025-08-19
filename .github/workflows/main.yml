@@ -17,7 +17,7 @@ jobs:
        from: "examencloudsystemen.redouane@gmail.com"
        to: "examencloudsystemen.redouane@gmail.com"
        subject: mail title.
-       body: "file://linesofcode.txt"
+       body: "file://./linesofcode.txt"
        
        
   
