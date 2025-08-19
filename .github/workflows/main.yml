@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
     - name: Send email
-      uses: devellany/send-mail@v1.0.2
+      uses: devellany/send-mail@45dbe31722b9c29635bc9d60315d420218093c56
       with:
        host: smtp.google.com
        account: ${{secrets.ACCOUNT}}
